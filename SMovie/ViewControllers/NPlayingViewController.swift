@@ -80,6 +80,15 @@ class NPlayingViewController: UIViewController, UITableViewDataSource {
         
         return cell
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let cell = sender as! UITableViewCell
+        if let indexpath = MovieTableView.indexPath(for: cell) {
+        let movie = movies[indexpath.row]
+        let detailViewController = segue.destination as! DetailsViewController
+            detailViewController.movie = movie
+        }
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
