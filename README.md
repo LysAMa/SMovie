@@ -34,8 +34,6 @@ Please list two areas of the assignment you'd like to **discuss further with you
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/XWv95oa"><a href="//imgur.com/XWv95oa">Flix</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
-
 <img src='http://i.imgur.com/a/XWv95oa.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
@@ -70,7 +68,7 @@ Time spent: **X** hours spent in total
 
 The following **required** functionality is completed:
 
-- [ ] User can tap a cell to see a detail view (+5pts)
+- [x] User can tap a cell to see a detail view (+5pts)
 - [ ] User can tap a tab bar button to view a grid layout of Movie Posters using a CollectionView (+5pts)
 
 The following **stretch** features are implemented:
