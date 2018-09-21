@@ -34,6 +34,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/XWv95oa"><a href="//imgur.com/XWv95oa">Flix</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 <img src='http://i.imgur.com/a/XWv95oa.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
