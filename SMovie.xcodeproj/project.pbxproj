@@ -14,6 +14,7 @@
 		F3CE6E45215463C100DC41F7 /* SMovieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6E44215463C100DC41F7 /* SMovieTests.swift */; };
 		F3CE6E50215463C100DC41F7 /* SMovieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6E4F215463C100DC41F7 /* SMovieUITests.swift */; };
 		F3CE6E5E21548FAD00DC41F7 /* NPlayingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6E5D21548FAD00DC41F7 /* NPlayingViewController.swift */; };
+		F3CE6E602154A6F000DC41F7 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6E5F2154A6F000DC41F7 /* MovieCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		F3CE6E4F215463C100DC41F7 /* SMovieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMovieUITests.swift; sourceTree = "<group>"; };
 		F3CE6E51215463C100DC41F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3CE6E5D21548FAD00DC41F7 /* NPlayingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NPlayingViewController.swift; sourceTree = "<group>"; };
+		F3CE6E5F2154A6F000DC41F7 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +99,13 @@
 		F3CE6E2E215463BF00DC41F7 /* SMovie */ = {
 			isa = PBXGroup;
 			children = (
+				F3CE6E5D21548FAD00DC41F7 /* NPlayingViewController.swift */,
 				F3CE6E2F215463BF00DC41F7 /* AppDelegate.swift */,
 				F3CE6E33215463BF00DC41F7 /* Main.storyboard */,
 				F3CE6E36215463C100DC41F7 /* Assets.xcassets */,
 				F3CE6E38215463C100DC41F7 /* LaunchScreen.storyboard */,
 				F3CE6E3B215463C100DC41F7 /* Info.plist */,
-				F3CE6E5D21548FAD00DC41F7 /* NPlayingViewController.swift */,
+				F3CE6E5F2154A6F000DC41F7 /* MovieCell.swift */,
 			);
 			path = SMovie;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				F3CE6E5E21548FAD00DC41F7 /* NPlayingViewController.swift in Sources */,
 				F3CE6E30215463BF00DC41F7 /* AppDelegate.swift in Sources */,
+				F3CE6E602154A6F000DC41F7 /* MovieCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
