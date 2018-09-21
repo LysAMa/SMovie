@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vmx-UT-t8z">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Playing View Controller-->
+        <!--Movies-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="NPlayingViewController" customModule="SMovie" customModuleProvider="target" sceneMemberID="viewController">
@@ -55,6 +55,7 @@
                                             <outlet property="OverviewLabel" destination="ghj-Sv-JKS" id="j1O-p1-Sqa"/>
                                             <outlet property="TitleLabel" destination="yBf-2P-1l1" id="ExT-vg-V1w"/>
                                             <outlet property="posterImageView" destination="69B-lh-iAB" id="q6Q-OH-aVf"/>
+                                            <segue destination="PO9-0C-PwB" kind="show" id="ehA-gT-dm0"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -68,6 +69,7 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Movies" id="MA5-Db-PVh"/>
                     <connections>
                         <outlet property="MovieTableView" destination="VEA-lk-efQ" id="JSl-R9-dmN"/>
                         <outlet property="activityindicator" destination="E3r-r5-Gju" id="DMo-i8-r4E"/>
@@ -75,7 +77,40 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-511" y="-321"/>
+            <point key="canvasLocation" x="32.799999999999997" y="-379.16041979010498"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="KZG-Kw-qb5">
+            <objects>
+                <viewController id="PO9-0C-PwB" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fMV-20-9Sl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="3So-e7-FIz"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kR3-uC-nib" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="748" y="-379.16041979010498"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="V41-X0-cLt">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="vmx-UT-t8z" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="8PH-iy-Jvg">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="eU7-7J-KqK"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zFx-LD-2Yd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-906.39999999999998" y="-379.16041979010498"/>
         </scene>
     </scenes>
 </document>
