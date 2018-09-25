@@ -11,6 +11,8 @@
 		358CE4405FA20B494AFCD4F5 /* Pods_SMovieUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE336C2FDB8064B1DB5746E6 /* Pods_SMovieUITests.framework */; };
 		A4017CDB9C20F0BCFA4F87DC /* Pods_SMovie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7045067D35CD91CF5EC3BE33 /* Pods_SMovie.framework */; };
 		F3906F702154D67400A2FBBF /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3906F6F2154D67400A2FBBF /* DetailsViewController.swift */; };
+		F39C44F02159CC8200DD7FB6 /* PosterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39C44EF2159CC8200DD7FB6 /* PosterCell.swift */; };
+		F39C44F22159CE1000DD7FB6 /* SuperheroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39C44F12159CE1000DD7FB6 /* SuperheroViewController.swift */; };
 		F3CE6E30215463BF00DC41F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6E2F215463BF00DC41F7 /* AppDelegate.swift */; };
 		F3CE6E35215463BF00DC41F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3CE6E33215463BF00DC41F7 /* Main.storyboard */; };
 		F3CE6E37215463C100DC41F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3CE6E36215463C100DC41F7 /* Assets.xcassets */; };
@@ -49,6 +51,8 @@
 		CABB79775656C180E0480C63 /* Pods-SMovie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMovie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SMovie/Pods-SMovie.debug.xcconfig"; sourceTree = "<group>"; };
 		CE336C2FDB8064B1DB5746E6 /* Pods_SMovieUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SMovieUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3906F6F2154D67400A2FBBF /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		F39C44EF2159CC8200DD7FB6 /* PosterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterCell.swift; sourceTree = "<group>"; };
+		F39C44F12159CE1000DD7FB6 /* SuperheroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperheroViewController.swift; sourceTree = "<group>"; };
 		F3CE6E2C215463BF00DC41F7 /* SMovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3CE6E2F215463BF00DC41F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3CE6E34215463BF00DC41F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -120,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				F3CE6E5F2154A6F000DC41F7 /* MovieCell.swift */,
+				F39C44EF2159CC8200DD7FB6 /* PosterCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -129,6 +134,7 @@
 			children = (
 				F3CE6E5D21548FAD00DC41F7 /* NPlayingViewController.swift */,
 				F3906F6F2154D67400A2FBBF /* DetailsViewController.swift */,
+				F39C44F12159CE1000DD7FB6 /* SuperheroViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -400,6 +406,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3CE6E5E21548FAD00DC41F7 /* NPlayingViewController.swift in Sources */,
+				F39C44F02159CC8200DD7FB6 /* PosterCell.swift in Sources */,
+				F39C44F22159CE1000DD7FB6 /* SuperheroViewController.swift in Sources */,
 				F3CE6E30215463BF00DC41F7 /* AppDelegate.swift in Sources */,
 				F3CE6E602154A6F000DC41F7 /* MovieCell.swift in Sources */,
 				F3906F702154D67400A2FBBF /* DetailsViewController.swift in Sources */,
