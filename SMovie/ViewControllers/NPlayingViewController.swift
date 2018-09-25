@@ -25,7 +25,7 @@ class NPlayingViewController: UIViewController, UITableViewDataSource {
         MovieTableView.insertSubview(refreshControl, at: 0)
         
         MovieTableView.dataSource = self
-        MovieTableView.rowHeight = 250
+        MovieTableView.rowHeight = 200
         MovieTableView.estimatedRowHeight = 250
         
         fetchNowPlayingMovie()
