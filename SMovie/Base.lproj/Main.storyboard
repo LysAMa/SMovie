@@ -130,7 +130,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kR3-uC-nib" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1687.2" y="-379.16041979010498"/>
+            <point key="canvasLocation" x="2308" y="-379"/>
         </scene>
         <!--Now Playing-->
         <scene sceneID="V41-X0-cLt">
@@ -208,6 +208,7 @@
                                         </view>
                                         <connections>
                                             <outlet property="ImageSuper" destination="Ne0-qd-Vdl" id="nAR-iT-2Ff"/>
+                                            <segue destination="PO9-0C-PwB" kind="show" id="9wQ-CY-lk8"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -250,4 +251,7 @@
         <image name="now_playing_tabbar_item" width="21" height="21"/>
         <image name="projector_tabbar_item" width="21" height="25"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="9wQ-CY-lk8"/>
+    </inferredMetricsTieBreakers>
 </document>

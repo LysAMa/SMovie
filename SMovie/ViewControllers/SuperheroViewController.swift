@@ -18,6 +18,7 @@ class SuperheroViewController: UIViewController, UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionview.dequeueReusableCell(withReuseIdentifier: "PosterCell", for: indexPath) as! PosterCell
         let movie = movies[indexPath.item]
+        
         if let posterPathString = movie["poster_path"] as? String{
             let baseURLString = "https://image.tmdb.org/t/p/w500"
             let posterURL = URL(string: baseURLString + posterPathString)!
@@ -62,6 +63,15 @@ class SuperheroViewController: UIViewController, UICollectionViewDataSource {
             }
         }
         task.resume()
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let cell = sender as! UICollectionViewCell
+        if let indexpath = collectionview.indexPath(for: cell) {
+            let movie = movies[indexpath.row]
+            let detailViewController = segue.destination as! DetailsViewController
+            detailViewController.movie = movie
+        }
     }
 
     override func didReceiveMemoryWarning() {
