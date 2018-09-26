@@ -29,8 +29,8 @@
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" image="launch_image" translatesAutoresizingMaskIntoConstraints="NO" id="WlA-pd-4at">
                                         <rect key="frame" x="0.0" y="0.0" width="138" height="139"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Flix" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BOA-RK-ZMm">
-                                        <rect key="frame" x="43.5" y="139" width="51.5" height="48"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="SMOVIE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BOA-RK-ZMm">
+                                        <rect key="frame" x="2" y="139" width="134" height="48"/>
                                         <fontDescription key="fontDescription" type="system" weight="thin" pointSize="40"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
